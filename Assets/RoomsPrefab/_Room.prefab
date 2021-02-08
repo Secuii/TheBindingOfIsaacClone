@@ -1,0 +1,65 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &3817183607260169448
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3817183607260169446}
+  - component: {fileID: 3817183607260169449}
+  m_Layer: 0
+  m_Name: Room
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3817183607260169446
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3817183607260169448}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3817183607260169449
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3817183607260169448}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f7fb7678528b94315a3b1db41033f499, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  roomU: {fileID: 8822170196487918436, guid: 1a329facb7d664c19a0912a1040eb434, type: 3}
+  roomD: {fileID: 8822170196487918436, guid: 08b18848b156549a8b23a0b6a95d7ee5, type: 3}
+  roomR: {fileID: 8822170196487918436, guid: 04f27b8f54adf4ff4aed731db0e0b929, type: 3}
+  roomL: {fileID: 8822170196487918436, guid: 24246e762e54f44269cf7728b3f93ce0, type: 3}
+  roomUD: {fileID: 8822170196487918436, guid: 82f8ec327889e4c2d82aaf1919df3cb2, type: 3}
+  roomRL: {fileID: 8822170196487918436, guid: 69eda8f8c31514af7a07c1e13bc0c1f5, type: 3}
+  roomUR: {fileID: 8822170196487918436, guid: 793177c53983743848b4755f8ed59b53, type: 3}
+  roomUL: {fileID: 8822170196487918436, guid: 28fed6c13b36a448787c8a9df6a50b2a, type: 3}
+  roomDR: {fileID: 8822170196487918436, guid: 7167f428ecef74ef9af1f81448578cdd, type: 3}
+  roomDL: {fileID: 8822170196487918436, guid: ad4fdd4f3aef241159bbaab5928892aa, type: 3}
+  roomULD: {fileID: 8822170196487918436, guid: 259e0eb5d7d624c5f9d9a7a370c53cdf, type: 3}
+  roomRUL: {fileID: 8822170196487918436, guid: ec06df8cabfde4ac7b13fc0fd71d2cde, type: 3}
+  roomDRU: {fileID: 8822170196487918436, guid: 229f83fd3dfda4b3a95df328b6553c5a, type: 3}
+  roomLDR: {fileID: 8822170196487918436, guid: ac0bf29f479274fd88356b1600517475, type: 3}
+  roomUDRL: {fileID: 8822170196487918436, guid: b72f91b4854094235bb278f6cd8a17d4,
+    type: 3}
+  up: 0
+  down: 0
+  left: 0
+  right: 0
